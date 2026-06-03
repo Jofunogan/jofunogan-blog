@@ -3,14 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Jofunogan</title>
+    <meta name="description" content="Blog pessoal sobre Filosofia, Matemática e Programação — anotações e processos de aprendizado.">
+     <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <h1>Jofunogan</h1>
-    <h2>Aprendendo a aprender a viver. Filosofia, Matemática e Programação.</h2>
-    <p>Bem-vindo, esse site é um blog adaptado a partir de meu processo de aprendizado,
-            uma coletânea de conhecimentos e habilidades aprendidas ao longo do tempo.
-            Fique à vontade para explorar as publicações e tirar bom proveito do meu
-            entendimento limitado das disciplinas.
+    <header>
+      <nav>
+         <div id="redes">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Reddit"><i class="fa-brands fa-reddit"></i></a>
+            <a href="#" aria-label="Tumblr"><i class="fa-brands fa-tumblr"></i></a>
+         </div>
+
+         <div class="logo">
+            <a href="index.html">
+             <img src="img/logomedia.jpg" alt="Logo Jofunogan">
+            </a>
+         </div>
+
+         <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="tem-submenu">
+                    <button class="botao-submenu" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-disciplinas">Disciplinas <i class="fa-solid fa-chevron-down"></i></button>
+
+                    <ul id="submenu-disciplinas" class="submenu">
+                    <li><a href="filosofia.html">Filosofia</a></li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="programacao.html">Programação</a></li>
+                </ul>
+            </li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+        <h1>Bem-vindo ao Jofunogan!</h1>
+        <p>Este é um blog pessoal onde compartilho minhas anotações e processos de aprendizado sobre Filosofia, Matemática e Programação. Aqui você encontrará reflexões, resumos de livros, exercícios resolvidos e muito mais. Sinta-se à vontade para explorar os conteúdos e aprender junto comigo!</p>
+    </main>
+     <footer>
+        <p>&copy; 2024 Jofunogan. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
